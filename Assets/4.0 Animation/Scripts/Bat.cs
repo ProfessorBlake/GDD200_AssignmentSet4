@@ -18,5 +18,10 @@ public class Bat : MonoBehaviour
 		{
 			BatAnimator.SetInteger("State", 0);
 		}
+
+		if(Input.GetKey(KeyCode.Space))
+		{
+			BatAnimator.SetInteger("State", 2);
+		}
 	}
 }
