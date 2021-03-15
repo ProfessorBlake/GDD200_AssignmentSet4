@@ -1,18 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Animator ani;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	private float walkSpeed = 2f;
+
+	private void Update()
+	{
+		if(Input.GetAxisRaw("Horizontal") > 0f)
+		{
+			transform.position += new Vector3(walkSpeed * Time.deltaTime, 0f);
+			ani.SetBool("Walking", true);
+		}
+		else
+		{
+			ani.SetBool("Walking", false);
+		}
+	}
 }

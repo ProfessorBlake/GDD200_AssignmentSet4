@@ -8,9 +8,9 @@ public class Fireball : MonoBehaviour
 
     void Update()
     {
-		transform.position += new Vector3(0f, Speed * Time.deltaTime, 0f);
+		transform.position += new Vector3(Speed * Time.deltaTime, 0f, 0f);
 
-		if (transform.position.y < -10f)
+		if (transform.position.x > 20f)
 			Destroy(gameObject);
     }
 }
