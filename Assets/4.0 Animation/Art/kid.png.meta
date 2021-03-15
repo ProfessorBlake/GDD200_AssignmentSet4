@@ -1,48 +1,63 @@
 fileFormatVersion: 2
-guid: 03874a66c115f7e47830090d4073b099
+guid: ecd48cfb9435d0c4b99b948cc0aa9664
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2048251983285237723
-    second: bats_0
+      213: 2344264231129395918
+    second: kid_0
   - first:
-      213: -3059231627260478881
-    second: bats_1
+      213: 3428754506911794699
+    second: kid_1
   - first:
-      213: -7563141940423595729
-    second: bats_2
+      213: -2014706741460055910
+    second: kid_2
   - first:
-      213: -1796587810465594989
-    second: bats_3
+      213: -6163153918130275027
+    second: kid_3
   - first:
-      213: -6382811156531876060
-    second: bats_4
+      213: -5737206081803244814
+    second: kid_4
   - first:
-      213: 3621403532388950202
-    second: bats_5
+      213: 337716325571290660
+    second: kid_5
   - first:
-      213: -1375181512479121148
-    second: bats_6
+      213: -2842852815489582266
+    second: kid_6
   - first:
-      213: -529156937261799721
-    second: bats_7
+      213: -1105176575737293960
+    second: kid_7
   - first:
-      213: -3157040297332002119
-    second: bats_8
+      213: -5238204622203794603
+    second: kid_8
   - first:
-      213: 8173848542968480126
-    second: bats_9
+      213: -4489896338909552077
+    second: kid_9
   - first:
-      213: -3755454332869958880
-    second: bats_10
+      213: 6526690940618727347
+    second: kid_10
   - first:
-      213: 8660245399007343114
-    second: bats_11
+      213: -1657900298928419499
+    second: kid_11
   - first:
-      213: 1361275082223647577
-    second: bats_12
+      213: 170574466761409209
+    second: kid_12
+  - first:
+      213: -656678124883008753
+    second: kid_13
+  - first:
+      213: 2522495938909959983
+    second: kid_14
+  - first:
+      213: 5876376152916724199
+    second: kid_15
+  - first:
+      213: -3632447182488437734
+    second: kid_16
+  - first:
+      213: -5999616218931406935
+    second: kid_17
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -84,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
@@ -96,13 +111,14 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,7 +130,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,7 +154,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -138,7 +166,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,11 +177,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bats_0
+      name: kid_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
+        y: 184
         width: 16
         height: 16
       alignment: 0
@@ -163,18 +191,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e09542a2fb7b8f94d9d8c24a35b7f09e
-      internalID: -2048251983285237723
+      spriteID: ec23f14d5ef788020800000000000000
+      internalID: 2344264231129395918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bats_1
+      name: kid_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 48
+        y: 184
         width: 16
         height: 16
       alignment: 0
@@ -184,18 +212,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f1752a0920ba0f4fa8807b0fb5c7cac
-      internalID: -3059231627260478881
+      spriteID: b064f76ce02659f20800000000000000
+      internalID: 3428754506911794699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bats_2
+      name: kid_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 48
+        y: 184
         width: 16
         height: 16
       alignment: 0
@@ -205,18 +233,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcc6507eeedec474b986ed4cce03d103
-      internalID: -7563141940423595729
+      spriteID: a9840bc94e25a04e0800000000000000
+      internalID: -2014706741460055910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bats_3
+      name: kid_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
+        y: 184
         width: 16
         height: 16
       alignment: 0
@@ -226,18 +254,60 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7407ef5faa0d0494a93f55df2aa903a1
-      internalID: -1796587810465594989
+      spriteID: d2db9cd4a24187aa0800000000000000
+      internalID: -6163153918130275027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bats_4
+      name: kid_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa28e237795160b0800000000000000
+      internalID: -5737206081803244814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426e684753fcfa400800000000000000
+      internalID: 337716325571290660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 168
         width: 16
         height: 16
       alignment: 0
@@ -247,18 +317,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51e8ad68369974d46aad7114aa3d9b99
-      internalID: -6382811156531876060
+      spriteID: 64b36082d682c88d0800000000000000
+      internalID: -2842852815489582266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bats_5
+      name: kid_7
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
+        y: 168
         width: 16
         height: 16
       alignment: 0
@@ -268,18 +338,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 846e907fd497ada449c61220ea8e65cd
-      internalID: 3621403532388950202
+      spriteID: 873981582cf99a0f0800000000000000
+      internalID: -1105176575737293960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bats_6
+      name: kid_8
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 168
         width: 16
         height: 16
       alignment: 0
@@ -289,81 +359,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dd0cbbeb872606468297de88e1a00dd
-      internalID: -1375181512479121148
+      spriteID: 55bcbb836a82e47b0800000000000000
+      internalID: -5238204622203794603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bats_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9819d211bb6ded4458609bcd34a68259
-      internalID: -529156937261799721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bats_8
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e64c1c4402d302b4ab706e6e9be62ae0
-      internalID: -3157040297332002119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bats_9
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 973a714394f30f74cbaa2624f865373e
-      internalID: 8173848542968480126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bats_10
+      name: kid_9
       rect:
         serializedVersion: 2
         x: 48
-        y: 16
+        y: 168
         width: 16
         height: 16
       alignment: 0
@@ -373,18 +380,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2174c73fb9f0ba4ab40e76f602c938d
-      internalID: -3755454332869958880
+      spriteID: 33228f8711fa0b1c0800000000000000
+      internalID: -4489896338909552077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bats_11
+      name: kid_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfd652a4d6739a50800000000000000
+      internalID: 6526690940618727347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d8b594674fdf8e0800000000000000
+      internalID: -1657900298928419499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2c013e2900e5200800000000000000
+      internalID: 170574466761409209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03249289b203e6f0800000000000000
+      internalID: -656678124883008753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_14
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 152
         width: 16
         height: 16
       alignment: 0
@@ -394,18 +485,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f33f7b082c49da4488f063aa516c87e
-      internalID: 8660245399007343114
+      spriteID: f27f71211b4b10320800000000000000
+      internalID: 2522495938909959983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bats_12
+      name: kid_15
       rect:
         serializedVersion: 2
         x: 16
-        y: 0
+        y: 152
         width: 16
         height: 16
       alignment: 0
@@ -415,8 +506,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17167da33d064544397dab5a0797132b
-      internalID: 1361275082223647577
+      spriteID: 7e98d290af41d8150800000000000000
+      internalID: 5876376152916724199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c78667884f69dc0800000000000000
+      internalID: -3632447182488437734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kid_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7dbe116d41dbca0800000000000000
+      internalID: -5999616218931406935
       vertices: []
       indices: 
       edges: []
