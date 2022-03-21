@@ -7,7 +7,7 @@ public class PlayerWithEvent : MonoBehaviour
 	public Animator ani;
 	public GameObject FireballPrefab;
 
-	private float walkSpeed = 2f;
+	private float walkSpeed = 1f;
 
 	private void Update()
 	{
