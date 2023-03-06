@@ -11,11 +11,11 @@ public class PlayerAnimation : MonoBehaviour
 		if(Input.GetAxisRaw("Horizontal") > 0f)
 		{
 			transform.position += new Vector3(walkSpeed * Time.deltaTime, 0f);
-			ani.SetBool("Walking", true);
+			ani.Play("Walk");
 		}
 		else
 		{
-			ani.SetBool("Walking", false);
+			ani.Play("Idle");
 		}
 	}
 }

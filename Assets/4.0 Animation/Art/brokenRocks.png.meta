@@ -63,7 +63,7 @@ TextureImporter:
       213: -2335351461400724338
     second: brokenRocks_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -83,6 +83,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -92,8 +94,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -114,10 +116,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -169,6 +175,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -612,6 +630,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      brokenRocks_19: -2335351461400724338
+      brokenRocks_3: 1009328232302276355
+      brokenRocks_11: 7109329511684448194
+      brokenRocks_1: -347589033005375649
+      brokenRocks_9: 1520311962427527430
+      brokenRocks_7: -1344323187492436406
+      brokenRocks_6: -6920903743639266498
+      brokenRocks_4: 6148802875710310960
+      brokenRocks_15: -5400234116570852610
+      brokenRocks_17: -4563707309233961794
+      brokenRocks_8: 2906320816602977019
+      brokenRocks_10: 3679085069691784487
+      brokenRocks_2: -4483381578726079361
+      brokenRocks_16: 8368547152269387275
+      brokenRocks_18: 3828564142773778316
+      brokenRocks_5: 6556764151935253993
+      brokenRocks_0: 1445629028102776985
+      brokenRocks_14: 8939769868034790184
+      brokenRocks_12: -685057265786944666
+      brokenRocks_13: -6229983144781418691
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
